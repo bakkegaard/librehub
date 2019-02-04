@@ -1,8 +1,8 @@
-FROM node:alpine
+FROM node
 
 WORKDIR /home/node/
 
-RUN npm install express
+RUN npm install nodegit
 
 RUN npm install -g nodemon
 
